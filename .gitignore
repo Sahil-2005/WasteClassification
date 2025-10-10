@@ -1,0 +1,109 @@
+# ==========================
+# GENERAL
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.zip
+*.tar
+*.tar.gz
+
+# ==========================
+# PYTHON / ML BACKEND
+# ==========================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+ENV/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorBoard / Weights & Biases logs
+logs/
+wandb/
+
+# Model weights and large binaries
+model/*.h5
+model/*.hdf5
+model/*.keras
+model/*.tflite
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+
+# Temporary training outputs
+*.npy
+*.npz
+*.csv
+*.tsv
+
+# ==========================
+# REACT FRONTEND
+# ==========================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build output
+/build/
+/dist/
+/coverage/
+
+# Environment files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# OS / EDITOR / MISC
+# ==========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# JetBrains / VSCode
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# OPTIONAL: DATASETS
+# ==========================
+# Ignore large dataset folders
+dataset/
+dataset-augmented/
+data/
+*.jpg
+*.png
+*.jpeg
