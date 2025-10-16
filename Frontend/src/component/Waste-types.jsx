@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Bold as Bottle, FlaskConical, Wrench, Leaf, FileText } from "lucide-react";
+import { Bold as Bottle, FlaskConical, Wrench, Leaf, FileText, Trash } from "lucide-react";
 
 const types = [
+  { icon: FileText, label: "Cardboard" },
   { icon: Bottle, label: "Plastic" },
   { icon: FlaskConical, label: "Glass" },
   { icon: Wrench, label: "Metal" },
   { icon: FileText, label: "Paper" },
-  { icon: Leaf, label: "Organic" },
+  { icon: Trash, label: "Trash" },
 ];
 
 export default function WasteTypes() {
